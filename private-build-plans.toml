@@ -1,6 +1,6 @@
 [buildPlans.IosevkaAileCustom]
 family = "Iosevka Aile Custom"
-spacing = "quasi-proportional-extension-only"
+spacing = "quasi-proportional"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
@@ -44,3 +44,4 @@ angle = 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
+
