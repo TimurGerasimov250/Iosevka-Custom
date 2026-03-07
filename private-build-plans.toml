@@ -1,23 +1,28 @@
-[buildPlans.IosevkaSparkleCustom]
-family = "Iosevka Sparkle Custom"
+[buildPlans.IosevkaAileCustom]
+family = "Iosevka Aile Custom"
 spacing = "quasi-proportional"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 noLigation = true
 
-  [buildPlans.IosevkaSparkleCustom.variants]
+  [buildPlans.IosevkaAileCustom.variants]
   inherits = "ss04"
 
-    [buildPlans.IosevkaSparkleCustom.variants.design]
+    [buildPlans.IosevkaAileCustom.variants.design]
+    one = "no-base"
+    capital-g = "toothless-rounded-serifless-hooked"
     capital-m = "flat-bottom-serifless"
     capital-q = "curly-tailed"
     capital-w = "straight-flat-top-serifless"
-    f = "flat-hook-serifed-crossbar-at-x-height"
-    r = "serifed"
+    i = "serifless"
+    j = "flat-hook-serifless"
+    l = "flat-tailed"
+    r = "compact-serifless"
     w = "straight-flat-top-serifless"
-    long-s = "flat-hook-double-serifed-xh"
+    y = "straight-serifless"
     eszet = "longs-s-lig-middle-serifed-xh"
+    lower-iota = "flat-tailed"
     cyrl-capital-zhe = "symmetric-connected"
     cyrl-zhe = "symmetric-connected"
     cyrl-capital-ka = "symmetric-connected-serifless"
@@ -31,40 +36,18 @@ noLigation = true
     at = "fourfold"
     bar = "natural-slope"
 
-    [buildPlans.IosevkaSparkleCustom.variants.italic]
-    capital-m = "flat-bottom-serifless"
-    capital-q = "curly-tailed"
-    capital-w = "straight-flat-top-serifless"
-    e = "rounded"
-    f = "flat-hook-extended-crossbar-at-x-height"
-    r = "serifed"
-    w = "straight-flat-top-serifless"
-    long-s = "flat-hook-descending-middle-serifed-xh"
-    eszet = "longs-s-lig-descending-middle-serifed-xh"
-    cyrl-capital-zhe = "symmetric-connected"
-    cyrl-zhe = "symmetric-connected"
-    cyrl-capital-ka = "symmetric-connected-serifless"
-    cyrl-ka = "symmetric-connected-serifless"
-    cyrl-em = "flat-bottom-serifless"
-    tittle = "round"
-    diacritic-dot = "round"
-    punctuation-dot = "round"
-    braille-dot = "round"
-    at = "fourfold"
-    bar = "natural-slope"
-
-[buildPlans.IosevkaSparkleCustom.widths.Normal]
+[buildPlans.IosevkaAileCustom.widths.Normal]
 shape = 600
 menu = 5
 css = "normal"
 
-[buildPlans.IosevkaSparkleCustom.slopes.Upright]
+[buildPlans.IosevkaAileCustom.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevkaSparkleCustom.slopes.Italic]
+[buildPlans.IosevkaAileCustom.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
