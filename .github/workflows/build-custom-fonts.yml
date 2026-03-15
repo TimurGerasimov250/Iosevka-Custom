@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: lts/*
       - name: Checkout this repository to access custom build plans
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Get the list of font families in private-build-plans.toml
         id: get-families
@@ -49,13 +49,13 @@ jobs:
 
       # Checkout this repository to access custom build plans
       - name: Checkout Customization Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           path: customization
 
       # Checkout repository into `iosevka` sub directory
       - name: Checkout Iosevka Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: be5invis/iosevka # You can change this to your own fork
           path: iosevka
@@ -76,7 +76,7 @@ jobs:
 
       # Upload build artifacts
       - name: Upload Font Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ${{ matrix.fontFamily }}-ttf
           path: iosevka/dist/${{ matrix.fontFamily }}/TTF/
