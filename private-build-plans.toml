@@ -7,6 +7,8 @@ exportGlyphNames = false
 
 [buildPlans.IosevkaMinimal.characters]
 include = ["0000-00FF"]
+# This forces the builder to drop everything outside your range
+exclude = ["0100-FFFF"] 
 
 [buildPlans.IosevkaMinimal.variants]
 inherits = "ss04"
