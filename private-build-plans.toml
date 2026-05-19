@@ -1,28 +1,25 @@
-[buildPlans.IosevkaAileCustom]
-family = "Iosevka Aile Custom"
+[buildPlans.IosevkaSparkleCustom]
+family = "Iosevka Sparkle Custom"
 spacing = "quasi-proportional"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 noLigation = true
 
-  [buildPlans.IosevkaAileCustom.variants]
+  [buildPlans.IosevkaSparkleCustom.variants]
   inherits = "ss04"
 
-    [buildPlans.IosevkaAileCustom.variants.design]
-    one = "no-base"
-    capital-j = "serifless"
+    [buildPlans.IosevkaSparkleCustom.variants.design]
     capital-m = "flat-bottom-serifless"
     capital-q = "curly-tailed"
     capital-w = "straight-flat-top-serifless"
+    f = "flat-hook-serifed-crossbar-at-x-height"
     g = "double-storey"
-    i = "serifless"
-    j = "flat-hook-serifless"
-    l = "flat-tailed"
+    r = "serifed"
     w = "straight-flat-top-serifless"
+    long-s = "flat-hook-double-serifed-xh"
     eszet = "longs-s-lig-middle-serifed-xh"
     lower-gamma = "casual-serifed"
-    lower-iota = "flat-tailed"
     cyrl-capital-zhe = "symmetric-connected"
     cyrl-zhe = "symmetric-connected"
     cyrl-capital-ka = "symmetric-connected-serifless"
@@ -36,54 +33,19 @@ noLigation = true
     at = "fourfold"
     bar = "natural-slope"
 
-    [buildPlans.IosevkaAileCustom.variants.italic]
-    one = "no-base"
-    capital-j = "serifless"
-    capital-m = "flat-bottom-serifless"
-    capital-q = "curly-tailed"
-    capital-w = "straight-flat-top-serifless"
-    a = "single-storey-serifless"
-    e = "rounded"
-    f = "flat-hook-extended-crossbar-at-x-height"
-    g = "single-storey-serifless"
-    i = "serifless"
-    j = "flat-hook-serifless"
-    l = "flat-tailed"
-    w = "straight-flat-top-serifless"
-    long-s = "flat-hook-descending-middle-serifed-xh"
-    eszet = "longs-s-lig-descending-middle-serifed-xh"
-    lower-gamma = "casual-serifed"
-    lower-iota = "flat-tailed"
-    cyrl-capital-zhe = "symmetric-connected"
-    cyrl-zhe = "symmetric-connected"
-    cyrl-capital-ka = "symmetric-connected-serifless"
-    cyrl-ka = "symmetric-connected-serifless"
-    cyrl-em = "flat-bottom-serifless"
-    tittle = "round"
-    diacritic-dot = "round"
-    punctuation-dot = "round"
-    braille-dot = "round"
-    ampersand = "closed"
-    at = "fourfold"
-    bar = "natural-slope"
-
-[buildPlans.IosevkaAileCustom.widths.Normal]
+[buildPlans.IosevkaSparkleCustom.widths.Normal]
 shape = 600
 menu = 5
 css = "normal"
 
-[buildPlans.IosevkaAileCustom.slopes.Upright]
+[buildPlans.IosevkaSparkleCustom.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevkaAileCustom.slopes.Italic]
+[buildPlans.IosevkaSparkleCustom.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
-
-# To enable TTC building, uncomment the following section and write your collect plans
-# [collectPlans.IosevkaCustomSample]
-# from = ["IosevkaCustomSample"]
