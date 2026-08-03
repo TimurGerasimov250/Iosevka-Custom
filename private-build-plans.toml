@@ -1,18 +1,18 @@
-[buildPlans.IosevieCustom]
-family = "Iosevie Custom"
-spacing = "normal"
+[buildPlans.IosevieSparkleCustom]
+family = "Iosevie Sparkle Custom"
+spacing = "quasi-proportional"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 noLigation = true
 
-  [buildPlans.IosevieCustom.variants]
+  [buildPlans.IosevieSparkleCustom.variants]
   inherits = "ss04"
 
-    [buildPlans.IosevieCustom.variants.design]
-    capital-m = "hanging-serifless"
+    [buildPlans.IosevieSparkleCustom.variants.design]
+    capital-m = "flat-bottom-serifless"
     capital-q = "curly-tailed"
-    capital-w = "straight-serifless"
+    capital-w = "straight-flat-top-serifless"
     f = "flat-hook-serifed-crossbar-at-x-height"
     g = "double-storey"
     r = "serifed"
@@ -34,18 +34,18 @@ noLigation = true
     at = "fourfold"
     bar = "natural-slope"
 
-[buildPlans.IosevieCustom.widths.Normal]
+[buildPlans.IosevieSparkleCustom.widths.Normal]
 shape = 600
 menu = 5
 css = "normal"
 
-[buildPlans.IosevieCustom.slopes.Upright]
+[buildPlans.IosevieSparkleCustom.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevieCustom.slopes.Italic]
+[buildPlans.IosevieSparkleCustom.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
